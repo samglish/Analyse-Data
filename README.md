@@ -1,9 +1,4 @@
-
----
-title: "Analyse des données de santé"
-author: "Travail pratique"
-output: html_document
----
+# FORMATION, MODULE : ANALYSE DE DONNEES
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
