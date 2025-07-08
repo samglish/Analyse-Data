@@ -4,14 +4,14 @@
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## 📁 Chargement des données
+## Chargement des données
 
 ```{r}
 data <- read.csv("donnees_patients.csv")
 head(data)
 ```
 
-## 📊 Statistiques descriptives
+## Statistiques descriptives
 
 ### Âge moyen
 
@@ -39,7 +39,7 @@ barplot(table(data$Maladie), col=c("green", "red"))
 table(data$Sexe, data$Maladie)
 ```
 
-## 📈 Histogramme des âges
+## Histogramme des âges
 
 ```{r}
 hist(data$Age, col="lightblue", main="Distribution des âges", xlab="Âge")
